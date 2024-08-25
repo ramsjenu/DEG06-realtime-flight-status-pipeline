@@ -8,7 +8,7 @@ from confluent_kafka import avro
 
 load_dotenv()
 
-access_key = "cbbb9dd3ccce1da87252543deba5db9c"
+access_key = "<< TO ADD >>"
 if access_key is None:
     raise ValueError("Missing environment variable: 'access_key'")
 
