@@ -8,7 +8,8 @@ from confluent_kafka import avro
 
 load_dotenv()
 
-access_key = "<< TO ADD >>"
+access_key = os.environ['AVIATION_STACK_API']
+
 if access_key is None:
     raise ValueError("Missing environment variable: 'access_key'")
 
