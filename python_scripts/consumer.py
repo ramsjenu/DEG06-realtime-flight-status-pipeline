@@ -7,7 +7,7 @@ from confluent_kafka.avro.serializer import SerializerError
 
 # Define consumer configuration
 consumer_config = {
-    'bootstrap.servers': 'localhost:9092',
+    'bootstrap.servers': '127.0.0.1:9092',
     'group.id': 'flights-group',
     'auto.offset.reset': 'earliest',
     'schema.registry.url': 'http://localhost:8081'

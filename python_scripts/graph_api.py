@@ -165,4 +165,4 @@ CORS(app)  # Enable CORS on the Flask app
 app.add_url_rule('/graphql', view_func=view_func)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=5055)
